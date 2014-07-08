@@ -1,0 +1,99 @@
+.html{
+	width: 100%;
+	height: 100%;
+}
+
+.login{
+	float:right;
+}
+.middle-row{
+	margin-left:300px;
+	width:650px;
+	margin-bottom:40px;
+}
+.middle-row li{
+	list-style-type: none;
+}
+.middle-row li h3{
+	font-size: 35px;
+}
+.middle-row li label{
+	font-size: 20px;
+}
+.submit-btn{
+	float:right;
+	margin-top:40px;
+}
+.jumbotron{
+
+	background: url("quiz.jpg");
+	 margin-top:-40px;
+	height: 370px;
+	//margin-top:30px;
+}
+.navbar{
+	background-color: none;
+}
+.btn-success{
+	opacity: 1!important;
+}
+.navbar-inverse{
+	background-color: #ffffff;
+	border-color:none;
+	
+}
+.greeting{
+
+	float:right;
+	margin-right: 40px;
+}
+.entry-form{
+    background: #EDF2F6;
+    width: 350px;
+    padding: 10px;
+    border: 5px solid #C5D7E2;
+    box-shadow: 3px 3px 5px #888;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    display: none;
+    border-radius: 5px;
+}
+.entry-form input[type='text']{
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 4px #C5D7E2 inset;
+    height: 25px;
+    width: 200px;
+}
+.entry-form input[type='text']:focus{
+    border: 1px solid #C5D7E2;
+}
+.question-title{
+	
+	opacity: 0.5;
+	padding-left: 10px;
+
+}
+#accordian{
+	float: left;
+	width: 100%;
+}
+.edit-q{
+	float: right;
+}
+.del-q{
+	margin-right: 10px;
+	float: right;
+}
+
+.select{
+	margin-bottom:20px;
+}
+
+.radio{
+	margin-left: 25px;
+	padding-left:0px;
+	margin-bottom: 0px;
+	min-height: 0px;
+	margin-top: 0px;
+}
